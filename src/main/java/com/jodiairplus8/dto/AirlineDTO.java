@@ -1,0 +1,28 @@
+package com.jodiairplus8.dto;
+
+import java.util.List;
+import java.util.Date;
+import java.sql.Timestamp;
+import java.time.Year;
+
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter @Setter
+public class AirlineDTO {
+
+	private Integer airlineId;
+
+	private String name;
+
+	private String iataCode;
+
+	private String icaoCode;
+
+
+
+
+
+
+}
